@@ -1,0 +1,19 @@
+.ec-pronunciation { --color-amber-100:oklch(96.2% .059 95.617); --color-amber-800:oklch(47.3% .137 46.201); --color-emerald-100:oklch(95% .052 163.051); --color-emerald-800:oklch(43.2% .095 166.913); --color-rose-100:oklch(94.1% .03 12.58); --color-rose-800:oklch(45.5% .188 13.697); }
+.ec-pronunciation .ms-1 {margin-inline-start:.25rem}
+.ec-pronunciation .border-slate-100 {border-color:var(--color-slate-100)}
+.ec-pronunciation .bg-amber-100 {background-color:var(--color-amber-100)}
+.ec-pronunciation .bg-emerald-100 {background-color:var(--color-emerald-100)}
+.ec-pronunciation .bg-rose-100 {background-color:var(--color-rose-100)}
+.ec-pronunciation .bg-rose-600 {background-color:var(--color-rose-600)}
+.ec-pronunciation .bg-slate-800 {background-color:var(--color-slate-800)}
+.ec-pronunciation .pb-3 {padding-bottom:.75rem}
+.ec-pronunciation .font-normal {font-weight:400}
+.ec-pronunciation .text-amber-800 {color:var(--color-amber-800)}
+.ec-pronunciation .text-emerald-800 {color:var(--color-emerald-800)}
+.ec-pronunciation .text-rose-800 {color:var(--color-rose-800)}
+.ec-pronunciation .tabular-nums {font-variant-numeric:tabular-nums}
+.ec-pronunciation {min-width:0;overflow-wrap:anywhere}
+.ec-pronunciation select,.ec-pronunciation audio {max-width:100%;min-width:0}
+.ec-pronunciation button,.ec-pronunciation select {min-height:44px}
+.ec-pronunciation button:focus-visible,.ec-pronunciation select:focus-visible,.ec-pronunciation input:focus-visible {outline:2px solid var(--color-teal-600);outline-offset:3px}
+@media(min-width:48rem){.ec-pronunciation .md\:grid-cols-4{grid-template-columns:repeat(4,minmax(0,1fr))}}

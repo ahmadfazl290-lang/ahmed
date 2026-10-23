@@ -1,0 +1,23 @@
+Files removed from this release. Delete these old files from the existing GitHub repository as well.
+Uploading replacement files through GitHub does not delete old files automatically.
+
+EMAIL-SETUP-KURDISH.md
+NO-LOGIN-KURDISH.md
+VALIDATION.md
+app/api/tutor/route.ts
+docs/COLLABORATION.md
+docs/GITHUB-HANDOFF.md
+docs/INTEGRATION-REPORT.md
+docs/LOCAL-INTEGRATION.md
+docs/RECOVERED-INTEGRATION.md
+docs/REPOSITORY-SETUP.md
+docs/TESTING.md
+docs/input-manifest.json
+docs/package-manifest.json
+tests/account-browser.mjs
+tests/auth-browser.mjs
+tests/entry-browser.mjs
+tests/integration-browser.mjs
+tests/mfa-browser.mjs
+tests/recovery-browser.mjs
+tests/visual-browser.mjs
