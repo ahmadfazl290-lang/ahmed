@@ -1,26 +1,10 @@
-# بڵاوکردنەوەی وەشانی چاککراوی Cadence
+# وەشانی نوێی دیاریکردنی ئاست و وانەکان
 
-١. ZIPەکە بکەرەوە و بچۆ ناو فۆڵدەرەکە. ئەو شوێنە هەڵبژێرە کە package.json و app و components تێدایە.
+١. ZIPەکە بکەرەوە و بچۆ ناو cadence-vercel.
 ٢. لە سەرەتای کۆگای GitHub، Add file > Upload files هەڵبژێرە.
-٣. فایلە دەرهێنراوەکان، بە فۆڵدەرەکانیشەوە، بار بکە و Commit changes بکە. ZIPەکە خۆی بار مەکە. package.json و app دەبێت لە سەرەتای کۆگاکە بن، نە لە ناو فۆڵدەرێکی زیادە.
+٣. هەموو ناوەڕۆکەکە، بە فۆڵدەرەکانیشەوە، بار بکە و Commit changes بکە. package.json دەبێت لە سەرەتا بێت.
 ٤. لە Vercel چاوەڕێی Ready بۆ هەمان commitی نوێ بە؛ وەشانە کۆنەکە Redeploy مەکە.
-٥. لە هەمان پڕۆژەی Vercel دوگمەی Visit بکە بۆ کردنەوەی ناونیشانی دروست.
-
-## سڕینەوەی فایلە کۆنەکان
-
-بارکردنی فایل لە GitHub فایلێکی کۆن کە لە وەشانی نوێدا سڕاوەتەوە بە خۆکار ناسڕێتەوە. فایلەکانی لیستی REMOVED-FILES.txt لە کۆگاکەت بسڕەوە. بەتایبەتی app/api/tutor/route.ts و پەڕەکانی AI کۆن نابێت بمێننەوە. فۆڵدەرە کۆنەکانی Cadence-*یش پێویست نین؛ کۆدی چالاک لە سەرەتای پڕۆژەکەدایە.
-
-ئەگەر GitHub Desktop بەکاردەهێنیت، کۆپییەکی کۆگاکە بکەرەوە، فایلە دەرهێنراوەکان لە شوێنی خۆیان دابنێ، سڕینەوەکانیش جێبەجێ بکە، پاشان گۆڕانکارییەکان ببینە و Commit و Push بکە.
-
-## ڕێکخستنی Vercel
-
-Framework: Next.js. Root Directory ئەو فۆڵدەرەیە کە package.json و app تێدایە؛ بۆ ئەم ZIPە دوای بارکردنی ناوەڕۆکەکە بۆ سەرەتای کۆگا، Root Directory بەتاڵ بهێڵەوە. Build Command: npm run build. Output Directory بە ڕێکخستنی بنەڕەتی Next.js بهێڵەوە.
-
-ڕێگری لە بڵاوکردنەوەی خۆکاری dev/auth لابراوە. ئەو لقەی Vercel وەک Production Branch دیاری کردووە بۆ وەشانی گشتییە؛ لقەکانی تر بە شێوەی Preview بڵاودەبنەوە. Redeployی commitێکی کۆن نوێکارییەکان ناهێنێت.
-
-میوان بۆ دەستپێکردن پێویستی بە ئیمەیڵ یان ڕێکخستنی Supabase نییە. بۆ هەژماری ئارەزوومەندانە، زانیارییە گشتییەکانی Supabase لە Environment Variables دابنێ و Site URL و Redirect URLی /auth/confirm لە Supabase ڕێکبخە. دوای گۆڕینی Environment Variables، بۆ هەمان commitی نوێ Redeploy بکە.
-
-بۆ Azure فایلەکەی AZURE-SETUP-KURDISH.md بخوێنەوە. کلیلی Azure تەنها لە Vercel Environment Variables یان .env.local دابنێ؛ لە GitHub یان چاتدا بڵاوی مەکەوە. .env.local، node_modules و .next بار مەکە.
+٥. https://english-learning-project-eta.vercel.app/ بکەرەوە.
 
 پێویست بە ئیمەیڵ یان وشەی نهێنی نییە. فێرخواز ناوی خۆی دەنووسێت و ٣٦ پرسیاری تاقیکردنەوەی ئاست تەواو دەکات. دوگمەی Skip test نییە. وەڵامەکان هەنگاو بە هەنگاو پاشەکەوت دەکرێن؛ لە هەمان وێبگەڕ دەتوانێت بەردەوام بێت.
 
