@@ -1,0 +1,386 @@
+{
+  "algorithm": "SHA-256",
+  "note": "Manifest covers every packaged source file except itself; adjacent archive verification covers all ZIP entries including this manifest.",
+  "files": [
+    {
+      "file": ".env.example",
+      "sha256": "7dc03f52208229a8e4c13d10c9aff544fca94dc93f4fb2d2faf539675811d377"
+    },
+    {
+      "file": ".github/CODEOWNERS",
+      "sha256": "b67d0fa2acc986f6082b27928c817396158cb7106b28728ad8d78d2df53fb3a1"
+    },
+    {
+      "file": ".github/pull_request_template.md",
+      "sha256": "a9caf348ec1e9fec2cbfeac93f25ae4172e30e8d66634114e2285ceaaf4ed60d"
+    },
+    {
+      "file": ".gitignore",
+      "sha256": "0cbe2c702105421db50ad44cf2ffc77f9e34acb763922209f26f5257c5d3cb42"
+    },
+    {
+      "file": "AGENTS.md",
+      "sha256": "b68b09158d24189c491dd59205bc5dea2619fc1dcf48c710098de96074b0b7ed"
+    },
+    {
+      "file": "CONTENT-GUIDE.md",
+      "sha256": "3eb9abd9deecfe0e9121c40431752ce9516b2b85d439e32c4b4948870955442f"
+    },
+    {
+      "file": "DEPLOY-KURDISH.md",
+      "sha256": "e58941155e7feba449a58e4f5b659dd8b10147a09565f1d7967a3c219cecd1f3"
+    },
+    {
+      "file": "EMAIL-SETUP-KURDISH.md",
+      "sha256": "f7b5a4b2e18818bbf41c99ee5b2eaddb12e46d363e70e1b5b7605616f6145cf9"
+    },
+    {
+      "file": "NO-LOGIN-KURDISH.md",
+      "sha256": "526f67ef224022f894511b85c9a13e170e14787a989f561c434ce56fb93d0fba"
+    },
+    {
+      "file": "README.md",
+      "sha256": "be5f559f421accd1851d47061d493dd4e219f705605f1368b0c6930afb3b6d1e"
+    },
+    {
+      "file": "VALIDATION.md",
+      "sha256": "409f02d1ea5e8f96969a0cfe7891a4cd8dcb682fbc4110235b5580586b2dcf03"
+    },
+    {
+      "file": "app/account/page.tsx",
+      "sha256": "81c47cd1dae46bd932a80ef30a4adb31c1a79be8715d8ad7b63a6422f06a3d6a"
+    },
+    {
+      "file": "app/api/account-email/route.ts",
+      "sha256": "dc9a766abdae7f21811175adf2a85a51ec3483b1a6a784f610975a8a753477af"
+    },
+    {
+      "file": "app/api/email-auth/route.ts",
+      "sha256": "6b7edb70b09e1bb42f342cb2161f63048c07ff780f59fa067c00d80dd46b324f"
+    },
+    {
+      "file": "app/api/pronunciation/route.ts",
+      "sha256": "784759cca431a441a8e18c2820dfa30e337bc8f34166ef9ada13eb546924dde3"
+    },
+    {
+      "file": "app/api/pronunciation/token/route.ts",
+      "sha256": "2c2f5670d70e42bd2711b0519fa7091033316e022bc11300028bf68c66291bbb"
+    },
+    {
+      "file": "app/api/session/route.ts",
+      "sha256": "1dacc60296ef35acecd81c49b65a7a630ff15934b86278797c668338b43e8ce4"
+    },
+    {
+      "file": "app/api/storage/route.ts",
+      "sha256": "ffd27a3a3a81a935ea2a5d2ca0debc676ba45fd45e7bf8f674dd6af033748cbb"
+    },
+    {
+      "file": "app/api/supabase-auth/route.ts",
+      "sha256": "a256152ff11ecbf60351a9a91d349cf9654387fd90dff39411caafa56930bb54"
+    },
+    {
+      "file": "app/api/supabase-mfa/route.ts",
+      "sha256": "43625a3056f84282309a30f2775115183998a85fbc60031e6b4fe047395e1971"
+    },
+    {
+      "file": "app/api/tutor/route.ts",
+      "sha256": "57e9ed9e9f06d9a5a9343b76c3bbe6064f8a03f0b7ea6eecbfa11a9a86c09734"
+    },
+    {
+      "file": "app/auth/confirm/route.ts",
+      "sha256": "7b9148d009205fab61138a0da45b63355eea467b2412aeb21d9e57f055ba8331"
+    },
+    {
+      "file": "app/chatgpt-auth.ts",
+      "sha256": "73a3409a33d9f479b4363e6548f85f9daa064e86f3363155c7e2df85f6b251c7"
+    },
+    {
+      "file": "app/globals.css",
+      "sha256": "9404311c2a0348874a4c08d22c79c367c4f743c21517bef6268285ff4b971585"
+    },
+    {
+      "file": "app/layout.tsx",
+      "sha256": "6569a61e1273ad03befd2e9c422f5f521607248dd69b351dd1a24121182123f5"
+    },
+    {
+      "file": "app/page.tsx",
+      "sha256": "2811d57f0ff3d0a5d4a77430d6b8657cd668087205b3d0bac2c1dca76661132e"
+    },
+    {
+      "file": "components/AccountDetails.tsx",
+      "sha256": "e032de1634967709568a0f7b396e796eb8ea31abf31a533c0ed994fefb016f52"
+    },
+    {
+      "file": "components/AccountLinks.jsx",
+      "sha256": "f551ada9a4719ca1a5d39b11abe98a8bae75ff59d6469a851f0e652b4ce20a7d"
+    },
+    {
+      "file": "components/CadenceClient.jsx",
+      "sha256": "fcf78c41d1c05734acda8b354b16133396cdd344f2bb3476d0b5f9e30713bbcb"
+    },
+    {
+      "file": "components/MfaPanel.tsx",
+      "sha256": "48e5fc2f584f5d76887678b6d6261c79ad4e8162d8e918382dae7ffd99549a5b"
+    },
+    {
+      "file": "components/SupabaseAccount.tsx",
+      "sha256": "166800da1d76f1a5c5fac2e690a2e2ac06d321ad331b19fe80bda011c0da2343"
+    },
+    {
+      "file": "components/auth-copy.ts",
+      "sha256": "012854df305a0ce9026f3a3734c73a19d74fbb6f7014286f4a891fd18f9c513a"
+    },
+    {
+      "file": "components/auth-styles.ts",
+      "sha256": "74a3edb310d3ab092070732b76b4f0950147502c3ec072f04a32f139d5dc159b"
+    },
+    {
+      "file": "components/cadence/App.jsx",
+      "sha256": "0d93e0d78607a1046887bdddbb3e6db5718342285ca8484a0475699090791d27"
+    },
+    {
+      "file": "components/cadence/PronunciationPanel.jsx",
+      "sha256": "5af8a25c8337828443d7c9e68126f25dfa87c965b3b765730fa1dbf54d279e5b"
+    },
+    {
+      "file": "components/cadence/curriculum.js",
+      "sha256": "fd586d39c981a5859ce8bda16c7145ffe23f4720fa76f4bf1049e6ae07d2cfa5"
+    },
+    {
+      "file": "components/cadence/curriculum.json",
+      "sha256": "13f6b4ee933b22520af91327499cf41cdff4c795bd9b5ffb44e834198f974400"
+    },
+    {
+      "file": "components/cadence/grading.js",
+      "sha256": "57154f3a48cc36998a24a63b69f76ef449e99a50fb01b7b8205522d775ee3ee1"
+    },
+    {
+      "file": "components/cadence/i18n.js",
+      "sha256": "0c6e113dc23f773099d716d3b6f77386904fe90c7a89abb85d68eee3a91bf843"
+    },
+    {
+      "file": "components/cadence/placement.js",
+      "sha256": "ec956b7aaaaa241da4c2a12cc1c31640f0a63e9cf01f0f3ab1bffa1850af4358"
+    },
+    {
+      "file": "components/cadence/pronunciation-data.js",
+      "sha256": "c083ef156903ba4a1fda469e10372f016e6c445409069163e72d8215f73c97d5"
+    },
+    {
+      "file": "components/cadence/pronunciation-recorder.js",
+      "sha256": "29c520b097570ebe4075d6f7355b7fd9ae31fe52635d13ed3e7af46281f6e8b2"
+    },
+    {
+      "file": "components/cadence/pronunciation.css",
+      "sha256": "f1f481a3ada89e845e2ea4bb72e82b57e738d139d9b2c7f1b6ed3db4e786f647"
+    },
+    {
+      "file": "components/mfa-copy.ts",
+      "sha256": "a2b5bce72953095094608b1cc4f6dec5853a697cf472e3596e259ca0fa0b3de4"
+    },
+    {
+      "file": "database/002-account-email.sql",
+      "sha256": "d53ddd7dcf4b1c9e2927c0a78325bfb9137da9c4d16b954005c450081fbdbdf2"
+    },
+    {
+      "file": "database/schema.sql",
+      "sha256": "8f393d4faa62e7fd5c50ad9cfea6964b9c04aa8aa9049621ff58f8313b031736"
+    },
+    {
+      "file": "docs/COLLABORATION.md",
+      "sha256": "5211ae840633345944f9da19508a2b4b8f9869f178a45123a62ceae29c7a2f49"
+    },
+    {
+      "file": "docs/GITHUB-HANDOFF.md",
+      "sha256": "28bd202a992decedb8bc3ed1f08e2e88b164691fb32da21fa7654a22bdddd10f"
+    },
+    {
+      "file": "docs/INTEGRATION-REPORT.md",
+      "sha256": "01bd9337e99ebe7d637b66855ca4fc13f0d848ecb4f4c8917a6ecd68ba594728"
+    },
+    {
+      "file": "docs/TESTING.md",
+      "sha256": "4596baa45e89c922edee9bed7cf2e51c13cefb7b624e666ccf21260375d12058"
+    },
+    {
+      "file": "docs/input-manifest.json",
+      "sha256": "c075145208b14d7ba5542b3790014a2c13f80efb6901624a4a1c7f983a238b89"
+    },
+    {
+      "file": "lib/account-actions.mjs",
+      "sha256": "e28fed0335c5cf4b7fcc8d3cba4c40738c2d9253c83d816182e2200ddbcf249a"
+    },
+    {
+      "file": "lib/account-mail.ts",
+      "sha256": "326cc041f388a4f57a9d325d623271b1ba93b4a7aefa699d54238ccce17f0827"
+    },
+    {
+      "file": "lib/cadence-security.mjs",
+      "sha256": "a44b0673858b159f54c6577ba12a96a167e80f5e407868d8c6cb448fb0d1ae63"
+    },
+    {
+      "file": "lib/email-auth.ts",
+      "sha256": "9ba9954015530d76b244d849a89c57b4401cc558725d58790d6e2484a2ef326d"
+    },
+    {
+      "file": "lib/email-requests.ts",
+      "sha256": "183c849638c617aea1551db6d627e3a8b101ba79499d046bd5e927ec200e37c1"
+    },
+    {
+      "file": "lib/pronunciation-audio.mjs",
+      "sha256": "3f7570b7288a885794ff406bd75010cdc23c76256c0a002f931e74a0f334266f"
+    },
+    {
+      "file": "lib/pronunciation-disabled.mjs",
+      "sha256": "82f0400ca409a4787a1babc9c5f6f15c1d831067f28bc8f9554bdb3cad8c9d45"
+    },
+    {
+      "file": "lib/pronunciation-service.mjs",
+      "sha256": "1f385068b62e84b097fe21c8827ae021c508e8889bc1c5bb074b5216b14170bd"
+    },
+    {
+      "file": "lib/runtime.ts",
+      "sha256": "7e033060aa2a5f1fd20d537257d6bd041b3a2f6202aaa5a011daf80b890ddb16"
+    },
+    {
+      "file": "lib/supabase/account-details.ts",
+      "sha256": "a30eeeb2050b0bda9f63898db00c007f55e0a9a9198ab524c2b9897449a3e8dd"
+    },
+    {
+      "file": "lib/supabase/auth-handler.ts",
+      "sha256": "1038f09c11c27f45aea7655a306ed07493756e6ca4ab4b7aecef1d2bf1af6c16"
+    },
+    {
+      "file": "lib/supabase/auth-policy.ts",
+      "sha256": "25ecfeeaf2258af5ad2f2f1468416d2cd089b348d8e5c0f08bc843577a59a5c4"
+    },
+    {
+      "file": "lib/supabase/client.ts",
+      "sha256": "698056b849e6e687411a1aacb761a76c425a6ad0d3331cc75291eaf094f8f23d"
+    },
+    {
+      "file": "lib/supabase/config.ts",
+      "sha256": "13671a8acec42354d14d43d6089acc5c894708bbed68407c68bbf239caf23fbc"
+    },
+    {
+      "file": "lib/supabase/mfa-handler.ts",
+      "sha256": "df772e3813e6bcc4abd042290e9ac26582e4f8bd2c7ffd98d5c171b59753f9e7"
+    },
+    {
+      "file": "lib/supabase/mfa-policy.ts",
+      "sha256": "8fb72d3cbbf3268ef5ab24bfcf42429472dec614c141fd551708c53f2b1a2aae"
+    },
+    {
+      "file": "lib/supabase/server.ts",
+      "sha256": "8195f1699fcc84dc7c7bfafd0524a00889394acca2a855d423be1a5c14aaebed"
+    },
+    {
+      "file": "next-env.d.ts",
+      "sha256": "1862ac4bbbc5192d4bf562161df66ea547ed3e67173100656ab606ae9797db2b"
+    },
+    {
+      "file": "next.config.mjs",
+      "sha256": "3016068739026964624a9697521613bab867a65a3a3a92ce27c5da0468c9d024"
+    },
+    {
+      "file": "package-lock.json",
+      "sha256": "1ffc2cdf54b3952ae63b011f2242067dca1de65ab67eb642421cbc17c5a5c1b8"
+    },
+    {
+      "file": "package.json",
+      "sha256": "3300997ab0da20f1cb16c05ce493dd2344dd4ee23d528c686c69558727b3bf6c"
+    },
+    {
+      "file": "proxy.ts",
+      "sha256": "f77abf7a230540ed1ee51dcd14b74ffcf53b598f77e4996f7891a962719395a7"
+    },
+    {
+      "file": "public/favicon.svg",
+      "sha256": "e6d2e59b7b5bbb0342e0fb496dfc262decbfe4426bbb7b047aec8d467d1dc6f7"
+    },
+    {
+      "file": "public/pcm-recorder.worklet.js",
+      "sha256": "e9b0b89ed322dac4947ef814fa816943fdc2bb7e36387d2b596d94b3b44a8f22"
+    },
+    {
+      "file": "tests/account-actions.test.mjs",
+      "sha256": "d7d4c50c50ac30e8a3e2a6cd98abaac3ade3dc33a519a278be86320b0a089b15"
+    },
+    {
+      "file": "tests/account-browser.mjs",
+      "sha256": "e9dbf99a21c7a3eb7972b8e2a5020fa8a2670fef07b3c74eeea11d8384f47ae0"
+    },
+    {
+      "file": "tests/account-details.test.mjs",
+      "sha256": "5bad7706c312cdfa8a05e157d2463662eea196395be1c893fa71be0922a641b4"
+    },
+    {
+      "file": "tests/account-mail.test.mjs",
+      "sha256": "8b5f1561a500fdf33e396be95c43d5fcf0b1e2246bc336c0fbfa0042dc0784d1"
+    },
+    {
+      "file": "tests/auth-browser.mjs",
+      "sha256": "0491f13a0cf9f086c7ff9fb0e8701b0319be9235c3914fc44925cc0d6fcec840"
+    },
+    {
+      "file": "tests/browser-progress.test.mjs",
+      "sha256": "9edaa5e21c5e4287e593572bf65322c417bde12dc7b461970d636817c6bcaf5f"
+    },
+    {
+      "file": "tests/curriculum.test.mjs",
+      "sha256": "52ca93d8b38673a4fbdb9dea86032f0924e3fadaa03c8ad9f3107580d1158177"
+    },
+    {
+      "file": "tests/integration-browser.mjs",
+      "sha256": "090a466267da59d5ebc33e33fc8b79087c1e26c3159503e54b6721186961f611"
+    },
+    {
+      "file": "tests/integration.test.mjs",
+      "sha256": "42fca1e0cf123aae48653b8b8ddfe429836301c49fc96b77302905f237d191e0"
+    },
+    {
+      "file": "tests/mfa-browser.mjs",
+      "sha256": "ecf194f8a62ea6fc5865d520a5fa7d916501603d40597d849729eefc9d6cb2db"
+    },
+    {
+      "file": "tests/mfa-fixture.mjs",
+      "sha256": "5ef7ecab4ee8d3026dbc075f161e468b20166a7b27e747f6afb5750edcce121b"
+    },
+    {
+      "file": "tests/mfa.test.mjs",
+      "sha256": "392206cbeff585d9c9f2d75d1a747e7b2276a8b165aff740d3878aa1ab7ea65c"
+    },
+    {
+      "file": "tests/placement.test.mjs",
+      "sha256": "b5f5fcb374225e5adcbdaa01e1887a58f613a39bfcdd9b02d6fa5b014cbf17e0"
+    },
+    {
+      "file": "tests/pronunciation.test.mjs",
+      "sha256": "55311537d6bebbd6519c0d68009148a2da364b572bc58e568b693b7a30ae410d"
+    },
+    {
+      "file": "tests/security.test.mjs",
+      "sha256": "a2d687e88ec552dc5775125b192e95d0b75d325ae944e9e80396aa06a13fca92"
+    },
+    {
+      "file": "tests/supabase-auth.test.mjs",
+      "sha256": "18447468db7716d3b26c49cfaba9d85032c3911f99138290537561fac74853b0"
+    },
+    {
+      "file": "tests/supabase-foundation.test.mjs",
+      "sha256": "884c7dcf51d69dd97ef5ac9a3d45fa8ce87c3e7ff243dc2ce4ed6f30b6657d18"
+    },
+    {
+      "file": "tests/visual-browser.mjs",
+      "sha256": "0433e2704a95ae84c871e3996e05cb3974dd99ccb878afd165fb8a2b827fb63c"
+    },
+    {
+      "file": "tsconfig.json",
+      "sha256": "f3a1ffce4cfaf272673ea067f1f8e32ef74439c196f58bd31f07ccae85a441aa"
+    },
+    {
+      "file": "vercel.json",
+      "sha256": "68455e8d6fedad63e40f1c666f972cd372c6f3b7f6a01f1b3217fc60f9d8a06e"
+    }
+  ]
+}

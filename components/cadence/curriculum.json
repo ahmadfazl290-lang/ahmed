@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "levels": [
+    {"id":"level-1","number":1,"cefr":"A1","name":"Foundation","lessons":[{"id":"a1-lesson-01","title":"Lesson 1","status":"pending","text":""},{"id":"a1-lesson-02","title":"Lesson 2","status":"pending","text":""},{"id":"a1-lesson-03","title":"Lesson 3","status":"pending","text":""}]},
+    {"id":"level-2","number":2,"cefr":"A2","name":"Elementary","lessons":[{"id":"a2-lesson-01","title":"Lesson 1","status":"pending","text":""},{"id":"a2-lesson-02","title":"Lesson 2","status":"pending","text":""},{"id":"a2-lesson-03","title":"Lesson 3","status":"pending","text":""}]},
+    {"id":"level-3","number":3,"cefr":"B1","name":"Intermediate","lessons":[{"id":"b1-lesson-01","title":"Lesson 1","status":"pending","text":""},{"id":"b1-lesson-02","title":"Lesson 2","status":"pending","text":""},{"id":"b1-lesson-03","title":"Lesson 3","status":"pending","text":""}]},
+    {"id":"level-4","number":4,"cefr":"B2","name":"Upper intermediate","lessons":[{"id":"b2-lesson-01","title":"Lesson 1","status":"pending","text":""},{"id":"b2-lesson-02","title":"Lesson 2","status":"pending","text":""},{"id":"b2-lesson-03","title":"Lesson 3","status":"pending","text":""}]},
+    {"id":"level-5","number":5,"cefr":"C1","name":"Advanced","lessons":[{"id":"c1-lesson-01","title":"Lesson 1","status":"pending","text":""},{"id":"c1-lesson-02","title":"Lesson 2","status":"pending","text":""},{"id":"c1-lesson-03","title":"Lesson 3","status":"pending","text":""}]},
+    {"id":"level-6","number":6,"cefr":"C2","name":"Proficient","lessons":[{"id":"c2-lesson-01","title":"Lesson 1","status":"pending","text":""},{"id":"c2-lesson-02","title":"Lesson 2","status":"pending","text":""},{"id":"c2-lesson-03","title":"Lesson 3","status":"pending","text":""}]}
+  ]
+}
