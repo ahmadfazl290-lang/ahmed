@@ -1,0 +1,9 @@
+# Template only: verified GitHub handles are required before activation.
+# /lib/supabase/ @AUTH_OWNER
+# /components/SupabaseAccount.tsx @AUTH_OWNER
+# /components/MfaPanel.tsx @AUTH_OWNER
+# /components/AccountDetails.tsx @AUTH_OWNER
+# /components/cadence/PronunciationPanel.jsx @UI_OWNER
+# /components/cadence/App.jsx @AUTH_OWNER @UI_OWNER
+# /app/ @AUTH_OWNER @UI_OWNER
+# /package*.json @AUTH_OWNER @UI_OWNER
