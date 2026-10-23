@@ -4,7 +4,7 @@ A React / Next.js platform with a required 36-question placement assessment, A1â
 
 ## Start locally
 
-Use Node.js 22.13 or newer. Run `npm ci`, `npm test`, `npm run typecheck`, `npm run build`, then `npm start`. Guest learning works without an environment file or email account. Progress stays in this browser; clearing browser data removes it.
+Use Node.js 24.x (the major is pinned for Vercel). Run `npm ci`, `npm test`, `npm run typecheck`, `npm run build`, then `npm start`. Guest learning works without an environment file or email account. Progress stays in this browser; clearing browser data removes it.
 
 ## Accounts and student records
 
@@ -24,6 +24,6 @@ Students can record and replay up to 20 seconds locally without Azure. Assessmen
 
 ## GitHub and Vercel
 
-See `DEPLOY-KURDISH.md`. Upload the extracted project files to the repository root, preserving folders. Uploading a ZIP file itself does not replace application source. Keep `.env.local`, `node_modules`, `.next` and secret values out of GitHub. Automatic deployment is no longer disabled for `dev/auth`; Vercel still determines whether a branch creates a Preview or Production deployment.
+See `VERCEL-FIX-KURDISH.md` and `DEPLOY-KURDISH.md`. Upload the extracted project files to the repository root, preserving folders. Uploading a ZIP file itself does not replace application source. The GitHub-ready archive has no extra outer folder and omits optional browser-QA scripts and old handoff documents to fit GitHub's 100-file web-upload limit. Unit tests and runtime source remain included. The full source archive retains the supplementary files. Keep `.env.local`, `node_modules`, `.next` and secret values out of GitHub. Automatic deployment is no longer disabled for `dev/auth`; Vercel still determines whether a branch creates a Preview or Production deployment.
 
 Run the checks before committing. Existing handoff documents describe earlier versions; this README and the new setup guide describe this release.

@@ -4,7 +4,7 @@
 ٢. لە سەرەتای کۆگای GitHub، Add file > Upload files هەڵبژێرە.
 ٣. فایلە دەرهێنراوەکان، بە فۆڵدەرەکانیشەوە، بار بکە و Commit changes بکە. ZIPەکە خۆی بار مەکە. package.json و app دەبێت لە سەرەتای کۆگاکە بن، نە لە ناو فۆڵدەرێکی زیادە.
 ٤. لە Vercel چاوەڕێی Ready بۆ هەمان commitی نوێ بە؛ وەشانە کۆنەکە Redeploy مەکە.
-٥. https://english-learning-project-eta.vercel.app/ بکەرەوە.
+٥. لە هەمان پڕۆژەی Vercel دوگمەی Visit بکە بۆ کردنەوەی ناونیشانی دروست.
 
 ## سڕینەوەی فایلە کۆنەکان
 
